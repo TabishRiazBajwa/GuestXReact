@@ -1,0 +1,57 @@
+g.links {
+
+    stroke-width: 5px; /* Adjust the stroke-width to change the height of the link lines */
+  
+  }
+  
+   
+  
+  path.link {
+  
+    fill: none;
+  
+    stroke: #cccccc;
+  
+    stroke-width: 60px;
+  
+    opacity: 0.5;
+  
+  }
+  
+   
+  
+  path.link:hover {
+  
+    stroke: #cccccc; /* Change to the desired gray color */
+  
+    opacity: 1;
+  
+  }
+  
+  .nodeCustome text {
+  
+    font-size: 11px;
+  
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+    background-color: black;
+  
+    fill: black;
+  
+    transform: rotate(0deg);
+  
+  }
+  
+  .nodeTwo text {
+  
+    font-size: 11px;
+  
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+    background-color: black;
+  
+    fill: black;
+  
+    transform: rotate(180deg);
+  
+  }

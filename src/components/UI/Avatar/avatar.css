@@ -1,0 +1,130 @@
+.avatar {
+  @apply whitespace-nowrap bg-gray-200 rounded-full relative cursor-pointer text-white inline-flex text-base text-center align-middle font-semibold;
+}
+
+.avatar-content {
+  @apply w-10 h-10 flex justify-center items-center rounded-full text-sm;
+}
+
+.avatar-icon {
+  @apply h-4 w-4;
+}
+
+[class*="avatar-status-"] {
+  @apply rounded-full w-4 h-4 absolute right-0 bottom-0 border border-white;
+}
+
+.avatar-status-online {
+  @apply bg-green-500;
+}
+
+.avatar-status-busy {
+  @apply bg-red-500;
+}
+
+.avatar-status-away {
+  @apply bg-yellow-500;
+}
+
+.avatar-status-offline {
+  @apply bg-gray-500;
+}
+
+.avatar-tag {
+  @apply flex items-center justify-center h-10 w-10 rounded-md;
+}
+
+img {
+  @apply rounded-full;
+}
+
+.avatar-xl {
+  @apply text-xl;
+}
+
+.avatar-xl img {
+  @apply w-20 h-20;
+}
+
+.avatar-xl .avatar-content {
+  @apply w-20 h-20 text-6xl;
+}
+
+.avatar-xl .avatar-icon,
+.avatar-xl i,
+.avatar-xl svg {
+  @apply h-12 w-12 text-3xl;
+}
+
+.avatar-lg {
+  @apply text-lg;
+}
+
+.avatar-lg img {
+  @apply w-16 h-16;
+}
+
+.avatar-lg .avatar-content {
+  @apply w-16 h-16 text-5xl;
+}
+
+.avatar-lg .avatar-icon,
+.avatar-lg i,
+.avatar-lg svg {
+  @apply h-8 w-8 text-2xl;
+}
+
+.avatar-sm .avatar-content {
+  @apply w-8 h-8;
+}
+
+.avatar-sm .avatar-icon,
+.avatar-sm i,
+.avatar-sm svg {
+  @apply h-4 w-4 text-base;
+}
+
+.avatar-sm img {
+  @apply w-8 h-8;
+}
+
+.avatar-group {
+  @apply flex justify-start;
+}
+
+.avatar-group .avatar {
+  @apply transition-all duration-200 ease-in-out;
+}
+
+.avatar-group .avatar img,
+.avatar-group .avatar .avatar-content {
+  @apply shadow-md;
+}
+
+.avatar-group .avatar .avatar-content {
+  @apply bg-gray-300;
+}
+
+.avatar-group .avatar:hover {
+  @apply transition-all duration-200 ease-in-out;
+}
+
+.avatar-group .avatar.pull-up:hover {
+  @apply transform translate-y-[-4px] scale-105;
+}
+
+.avatar-group .avatar:not(:first-child) {
+  @apply -ml-2;
+}
+
+.avatar-group .avatar-sm:not(:first-child) {
+  @apply -ml-1;
+}
+
+.avatar-group .avatar-lg:not(:first-child) {
+  @apply -ml-4;
+}
+
+.avatar-group .avatar-xl:not(:first-child) {
+  @apply -ml-6;
+}

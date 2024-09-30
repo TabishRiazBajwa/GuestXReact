@@ -1,0 +1,191 @@
+.appointment-info {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* * {
+  border: 1px solid red !important;
+} */
+/* .appointment-info{
+  top: 95%;
+} */
+/* * {
+  border: 1px solid red !important;
+} */
+
+.appointment-info h2 {
+  font-weight: 600;
+}
+.appointment-info h2 img {
+  width: 23px;
+  height: 23px;
+  margin-left: 7px;
+  margin-top: 3px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px !important;
+  border: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #c7c1c1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0f2e60;
+  border-radius: 20px;
+}
+
+.appointment-info table tr:hover,
+.appointment-info table tr:hover .bg-white {
+  background-color: #1f66ac;
+  cursor: pointer;
+}
+
+.appointment-info table tr:hover td {
+  color: #fff;
+}
+.appointment-info table tr td {
+  color: #0e2e60;
+  font-size: 14px;
+  font-weight: normal;
+}
+.custome-cahrt-color g:nth-child(even) circle {
+  fill: rgb(13, 210, 13);
+}
+.custome-cahrt-color g:nth-child(odd) circle {
+  fill: red;
+}
+
+.flyout {
+  position: absolute;
+  right: 0;
+
+  /* Add these lines to set the initial state of the div */
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.flyout.show {
+  /* Add these lines to set the transition duration and easing */
+  transition: transform 1.6s ease-in-out, opacity 2.5s ease-in-out;
+  /* Add these lines to set the final state of the div */
+  transform: translateX(0%);
+  opacity: 1;
+  z-index: 20;
+}
+
+.header-calander {
+  top: 58px;
+  min-height: 600px;
+}
+.header-calander select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
+.location-time-header {
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  /* max-height: 800px; */
+  padding: 10px 15px;
+}
+.drop-body {
+  height: 550px;
+  overflow-y: auto;
+}
+.shadow-box {
+  --tw-shadow: 0 4px 6px 1px rgb(0 0 0 / 0.1), 0 2px 4px 1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),
+    0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.ToolTipInfo label {
+  display: none;
+  font-size: 13px;
+  color: #0e2e60;
+}
+.ToolTipInfo label strong {
+  margin-right: 5px;
+  font-style: italic;
+}
+
+.ToolTipInfo:hover label {
+  display: block;
+}
+/* .MuiList-root.MuiList-padding {
+  width: 80px;
+  border-radius: 3px;
+  height: 330px;
+  max-height: 330px;
+} */
+/* Add transition for sliding animation */
+.hs-overlay {
+  transition: transform 1s ease;
+}
+
+.hs-overlay-open {
+  transform: translateY(0);
+}
+
+.MuiMultiSectionDigitalClock-root .MuiMenuItem-root {
+  margin: 0px auto;
+  padding: 7px 15px;
+  min-width: 60px;
+  border-radius: 5px;
+  /* height: 350px; */
+}
+.MuiMultiSectionDigitalClock-root {
+  height: 330px;
+  border: none;
+}
+
+.cdk-overlay-pane {
+  right: 0;
+  height: 200px;
+}
+.pbi-external-link {
+  visibility: hidden;
+}
+
+/* .socialSharing {
+  display: none;
+  visibility: hidden;
+} */
+
+/* Assuming you have a stylesheet linked in your React application */
+.report-container {
+  height: 88vh; /* 100% of the viewport height */
+  width: 92vw; /* 100% of the viewport width */
+  padding-right: 60px;
+}
+.MuiMultiSectionDigitalClock-root {
+  border: none !important;
+}
+
+.ant-table-placeholder {
+  height: 500px;
+}
+.li-li:before {
+  content: "·";
+  font-size: 90px;
+  line-height: 20px;
+  display: flex;
+  margin-bottom: 3px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
